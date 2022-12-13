@@ -28,3 +28,16 @@ docker compose up
 * This data will be automatically stored in the database and populated in the dashboard.
 * Feel free to use this for as long as you like to keep track of your productivity and wellbeing from day-to-day!
 
+* To stop the containers running on your machine run:
+```
+docker compose down
+```
+
+* To delete the images run:
+```
+docker images
+```
+* Copy the image IDs and run:
+```
+docker rmi [image ID 1] [image ID 2] [image ID 3]
+
