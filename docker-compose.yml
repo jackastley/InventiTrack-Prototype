@@ -5,8 +5,8 @@ services:
     environment:
       POSTGRES_PASSWORD: "123456"
       POSTGRES_USER: "jack"
-    volumes: 
-      - pgdata:/var/lib/postgresql/data
+    # volumes: 
+    #   - pgdata:/var/lib/postgresql/data
   api:
     build: ./api
     depends_on:
@@ -19,5 +19,5 @@ services:
       - "api"
     ports:
       - "3000:3000"
-volumes:
-  pgdata:
+# volumes:
+#   pgdata:

@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CustomLink from "../utils/customRouterLink";
-import logo from "./Inventium_logo_RGB.png"
+import logo from "./login/images/Inventium_logo_RGB.png"
 
 export default function NavBar() {
 
