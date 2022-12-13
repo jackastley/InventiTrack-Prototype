@@ -1,0 +1,447 @@
+body {
+    font-family: Nunito !important;
+    background-color:aliceblue!important;
+}
+
+.track-page {
+    padding: 0px;
+}
+
+.navBar p {
+    margin: 0px;
+    padding: 5px;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 18px;
+}
+
+.navBar img {
+    margin: 2px;
+    margin-left: 30px;
+}
+
+.navBar ul {
+    list-style: none;
+    padding: 0;
+    float: left;
+    border: solid rgb(0, 0, 0);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 1px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 99.8vw;
+}
+
+.navBar li {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    width:25vw;
+}
+
+.nav-text-container{
+    display: flex;
+    align-self: center;
+    justify-content: stretch;
+    width: 100%;
+    height: 60px;
+}
+
+.navBar li:nth-child(1){
+    width: 150px;
+    margin-right: 40px;
+}
+
+.navBar li:nth-child(5) {
+    margin-left:2%
+}
+
+.navBar a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+.navBar a:nth-child(1) {
+    padding: 0px;
+}
+
+.navBar li.active {
+    background-color: rgb(242, 147, 46);
+    transform: skew(-15deg);
+}
+.navBar li.active:hover {
+    background-color: rgb(242, 147, 46);
+}
+
+.navBar li:hover {
+    background-color: rgb(145, 201, 145);
+    cursor: pointer;
+    transform: skew(-15deg);
+}
+
+.navBar li:nth-child(1):hover{
+    transform: skew(0deg);
+    background-color: inherit;
+    border: none;
+    border-color: inherit;
+    border-radius: 10px;
+}
+.navBar li:nth-child(5):hover{
+    transform: skew(0deg);
+    background-color: inherit;
+    border: none;
+    border-color: inherit;
+    border-radius: 10px;
+}
+
+.navBar li a:hover {
+    color: black;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+label {
+    font-weight: 500;
+}
+
+
+[name=variable-block] {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    width:70vw;
+    align-self: center;
+}
+
+[name=variable-block] table {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+[name=variable-block] th {
+    width: 200px;
+}
+
+.variable-block{
+    padding:15px;
+    margin:2%;
+    align-self: center;
+    display: flex;
+    
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    display: flex;
+    margin: auto;
+    width: 60%;
+    height: 15px;
+    border-radius: 5px;
+    background: #dddddd;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4f8955;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+[type=radio] {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    accent-color: green;
+}
+
+.sliderEndLabel{
+    display: inline;
+    font-size: small;
+    opacity: 70%;
+    /* word-wrap: break-word; */
+    /* white-space: normal; */
+    text-align:center;
+    /* transform: translateY(20px); */
+    min-width: 25%;
+    max-width: 25%;
+    padding: 10px;
+}
+
+.labelSlideContainer{
+    display: flex;
+    /* border:red solid; */
+    min-width: 70vw;
+    margin-top:20px
+}
+
+.sliderTitle{
+    transform: translateY(20px);
+}
+
+
+.track-page form {
+    text-align: center;
+    justify-content: center;
+}
+
+#submit-responses {
+    width: 200px;
+    height: 40px;
+}
+
+.barContainer {
+    position: relative;
+    height: 20vw;
+    width: 60vw;
+    margin: auto;
+}
+
+
+/* loading symbol */
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: black;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+
+    50%,
+    100% {
+        top: 24px;
+        height: 32px;
+    }
+}
+
+
+/* submit error */
+.submit-error {
+    color: red
+}
+
+
+
+
+
+/* login animation */
+
+.animation-area{
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    right: -10px;
+}
+
+.circle li:nth-child(1){
+    height: 25px;
+    width: 25px;
+    background-color:lightgreen;
+    opacity: 0.4;
+    border-radius: 50%;
+    left: 2vw;
+    display: block;
+    position: relative;
+    bottom: -100vh;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.circle li:nth-child(2){
+    height: 75px;
+    width: 75px;
+    background-color:orange;
+    opacity: 0.4;
+    border-radius: 50%;
+    left: 15vw;
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    animation-name: updown;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+    overflow: hidden;
+} 
+
+
+.circle li:nth-child(3){
+    height: 150px;
+    width: 150px;
+    background-color:darkturquoise;
+    opacity: 0.4;
+    border-radius: 50%;
+    left: 42vw;
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    animation-name: updown;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.circle li:nth-child(4){
+    height: 75px;
+    width: 75px;
+    background-color:orange;
+    opacity: 0.4;
+    border-radius: 50%;
+    left: 75vw;
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    animation-name: updown;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.circle li:nth-child(5){
+    height: 25px;
+    width: 25px;
+    background-color:lightgreen;
+    opacity: 0.4;
+    border-radius: 50%;
+    left: 90vw;
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+    overflow: hidden;
+} 
+
+@keyframes updown {
+    0% {
+        transform: translateY(20vh);
+    }
+    100%{
+        transform: translateY(-120vh);
+    }
+
+}
+
+#logo-login{
+    width: 100%;
+    height: 6rem;
+    object-fit:contain;
+    margin-bottom: 10px;
+}
+
+
+.survey-item-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.survey-var-tab th{
+    text-align: center;
+    table-layout: fixed;
+    /* border: red solid; */
+    width: 100px;
+}
+
+.survey-item-col h5{
+    display: flex;
+    justify-content: center;
+}
+
+.survey-var{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    margin: 0 auto;
+    padding:15px;
+    margin:2%;
+    align-self: center;
+    display: flex;
+}
+
+
+.dropdownx{
+    display: inline-flex;
+    margin:5px
+}

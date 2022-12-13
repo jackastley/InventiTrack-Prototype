@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1664754357023" clover="3.2.0">
+  <project timestamp="1664754357023" name="All files">
+    <metrics statements="14" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2" elements="18" coveredelements="13" complexity="0" loc="14" ncloc="14" packages="1" files="3" classes="3"/>
+    <file name="encryptPassword.js" path="/Users/jackastley/Documents/Personal/health_tracker2/api/routes/functions/encryptPassword.js">
+      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="formatDate.js" path="/Users/jackastley/Documents/Personal/health_tracker2/api/routes/functions/formatDate.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="validatePassword.js" path="/Users/jackastley/Documents/Personal/health_tracker2/api/routes/functions/validatePassword.js">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
